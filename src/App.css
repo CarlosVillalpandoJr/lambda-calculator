@@ -26,7 +26,31 @@
 
   .keypad {
       margin-top: 35px;
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+      margin-left: 50px;
+      width: 415px;
   }
+
+  .numbers {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+  }
+
+  .operators {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+  }
+
+  .specials {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+  }
+
 
   button {
       border-radius: 50px;
@@ -46,16 +70,19 @@
   .numberButton {
       background-color: #15009F;
       color: white;
+      margin: 15px;
   }
 
   .operatorButton {
       background-color: #1D00D8;
       color: white;
+      margin-bottom: 22px;
   }
 
   .specialButton {
       background-color: #5D44FF;
       color: white;
+      margin: 5px 18px;
   }
 
   

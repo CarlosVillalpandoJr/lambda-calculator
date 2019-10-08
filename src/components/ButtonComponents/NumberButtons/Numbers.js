@@ -14,7 +14,7 @@ const Numbers = () => {
   const [number, setNumber] = useState(numberData);
   // console.log('Number.js State: ', useState(numberData))
   return (
-    <div>
+    <div className='numbers'>
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
        component matching the name on the provided file. Pass
        it any props needed by the child component*/}
