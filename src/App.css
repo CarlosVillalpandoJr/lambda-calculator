@@ -35,6 +35,12 @@
       height: 75px;
       margin: 7px;
       font-size: 25px;
+      box-shadow: 1px 1px #322c2d;
+  }
+
+  button:hover {
+    box-shadow: 2px 2px;
+    cursor: pointer;
   }
 
   .numberButton {
