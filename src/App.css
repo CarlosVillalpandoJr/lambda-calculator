@@ -6,8 +6,11 @@
     border: 2px solid grey;
     padding-bottom: 25px;
 }
+
+
 .display {
     margin-top: 25px;
+    margin-left: 25px;
     height: 100px;
     width: 450px;
     border-radius: 50px;
@@ -20,3 +23,69 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+  .keypad {
+      margin-top: 35px;
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+      margin-left: 50px;
+      width: 415px;
+  }
+
+  .numbers {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+  }
+
+  .operators {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+  }
+
+  .specials {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+  }
+
+
+  button {
+      border-radius: 50px;
+      border: none;
+      width: 75px;
+      height: 75px;
+      margin: 7px;
+      font-size: 25px;
+      box-shadow: 1px 1px #322c2d;
+  }
+
+  button:hover {
+    box-shadow: 2px 2px;
+    cursor: pointer;
+  }
+
+  .numberButton {
+      background-color: #15009F;
+      color: white;
+      margin: 15px;
+  }
+
+  .operatorButton {
+      background-color: #1D00D8;
+      color: white;
+      margin-bottom: 22px;
+  }
+
+  .specialButton {
+      background-color: #5D44FF;
+      color: white;
+      margin: 5px 18px;
+  }
+
+  
+
+
+
