@@ -1,8 +1,9 @@
 import React from "react";
 
-const Display = () => {
+const Display = ( {value} ) => {
   return (
   <div className="display">
+    {value}
   </div>
   )
 };
