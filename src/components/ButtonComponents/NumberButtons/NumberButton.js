@@ -4,7 +4,7 @@ const NumberButton = ( {num} ) => { // Destructoring props
   return (
     <>
       {/* Display a button element rendering the data being passed down from the parent container on props */}
-      <button>{num}</button>
+      <button className='numberButton'>{num}</button>
     </>
   );
 };

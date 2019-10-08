@@ -6,6 +6,8 @@
     border: 2px solid grey;
     padding-bottom: 25px;
 }
+
+
 .display {
     margin-top: 25px;
     margin-left: 25px;
@@ -21,3 +23,36 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+  .keypad {
+      margin-top: 35px;
+  }
+
+  button {
+      border-radius: 50px;
+      border: none;
+      width: 75px;
+      height: 75px;
+      margin: 7px;
+      font-size: 25px;
+  }
+
+  .numberButton {
+      background-color: #15009F;
+      color: white;
+  }
+
+  .operatorButton {
+      background-color: #1D00D8;
+      color: white;
+  }
+
+  .specialButton {
+      background-color: #5D44FF;
+      color: white;
+  }
+
+  
+
+
+

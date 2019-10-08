@@ -24,9 +24,11 @@ function App() {
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
         <Display value={value}/>
-        <Numbers />
-        <Operators />
-        <Specials />
+        <div className='keypad'>
+          <Specials />
+          <Operators /> 
+          <Numbers />
+        </div>
       </div>
     </div>
   );
